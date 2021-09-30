@@ -1,0 +1,170 @@
+body
+{
+	margin: 20px;
+	padding: 100px;
+	background-color:#607D8B;
+	font-family: Verdana, sans-serif;
+	
+	
+}
+
+ul, ul li
+{ display: block;
+  list-style: none;
+  margin: 0;
+   padding: 0;
+}
+ul li
+{ float: left;
+}
+ul a:link, ul a:visited
+{ text-decoration: none;
+  display: block;
+  text-align: center;
+  color: black;
+  width: 160px; 
+  border: 4px outset white; 
+  padding: 5px; 
+  background-color: #CFD8DC; 
+
+}
+ul a:hover
+{ color: #ff00ff;
+  border-style: inset; 
+  padding: 7px 3px 3px 7px;
+  background-color: #F9F9F9;  
+  text-decoration: none;  
+}
+
+#tresc
+{
+	
+	display:block;
+	height:400px;
+	width: 883px;
+	float: left;
+	background-color: #90A4AE;
+	border: 4px outset white;
+}
+#stopka
+{
+	display:block;
+	height:50px;
+	width: 883px;
+	float: left;
+	background-color: #CFD8DC;
+	border: 4px outset white;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	
+}
+#kontener
+{
+	padding:10px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 900px;
+	height: 600px;
+	
+}
+h1
+{
+	display:block;
+	background-color:#CFD8DC;
+	text-shadow: 2px 5px 2px white;
+	color:black;
+	font-size:50px;
+	font-family: 'Ink Free', sans-serif;
+	width:322px;
+	height:100px;
+	position: relative; top: 35px;
+	border: 4px outset white;
+	margin:auto;
+	text-align:center;
+	border-radius: 15px;
+}
+p
+{
+	padding:20px;
+	font-family: average, sans-serif;
+	font-size:20px;
+	text-align:center;
+}
+
+#linia
+{
+	position: relative; top: 150px;
+	
+}
+
+a.tilelink
+{
+	width:100px;
+	height:70px;
+	display:block;
+	text-decoration: none;
+}
+a.tilelink2
+{
+	color:white;
+	width:100px;
+	height:70px;
+	display:block;
+	text-decoration: none;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	float: left;
+}
+
+.yt:hover
+{
+	background-color: #c83237;
+}
+
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	float: left;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.gplus
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	float: left;
+}
+
+.gplus:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	float: left;
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}

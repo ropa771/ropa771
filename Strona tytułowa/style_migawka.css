@@ -1,0 +1,105 @@
+			
+body {
+ 
+  background-color:#333;
+}
+
+#camera {
+  
+  position: fixed;
+  top: 10px; 
+  left: 530px;
+  width:300px; height:300px;
+  background:#eaeaea;
+  border:1px solid rgba(0,0,0,.2); border-radius:50px;
+ 
+}
+
+.btn {
+  position: fixed;
+  top: 22px; 
+  left: 760px;
+  width: 40px; height: 30px;
+  background-color: #2e3e4f;
+  border-radius: 15px;
+  box-shadow: 0px 3px 0px rgba(0,0,0,.4);
+
+}
+		
+p
+{
+	position:fixed;
+	top:300px;
+	left:400px;
+	font-size:30px;
+	color:white;
+	text-align:center;
+	
+}
+.btn:hover {
+  cursor:pointer;
+  margin-top:2px;
+  box-shadow: 0px 1px 0px rgba(0,0,0,.4);
+}
+			
+a.tilelink
+{
+	width:100px;
+	height:70px;
+	display:block;
+	text-decoration: none;
+}
+			
+.strip {
+  height: 110px;
+  background-color: #54b59a;
+  border-top: 10px solid #479a83;
+  border-bottom: 10px solid #479a83;
+  margin: 80px 0px;
+  box-shadow: 0px 2px 0px rgba(0,0,0,.4);
+  
+}
+			
+.lens {
+  position: fixed;
+	top:70px; left:590px;
+	width:144px; height:144px;
+   
+	border:18px solid #b44b37;
+  border-radius:50%;
+  background-color:#111;
+  box-shadow: 0px 5px 0px rgba(0,0,0,.4);
+  
+}
+			
+.lens:before {
+  content: '';
+  position: absolute;
+  width: 50px; height: 50px;
+  margin: 27px;
+  border: 20px solid rgb(60, 60, 60);
+  border-radius: 50%;
+	background: rgb(34, 34, 34);
+}
+			
+.lens:after {
+  content: '';
+  position: absolute;
+  width: 8px; height: 8px;
+  margin: 57px;  
+  border: 11px solid rgb(22, 22, 22);
+  border-radius: 50%;
+  background: rgb(131, 131, 131);  
+}
+			
+.led {
+  position: fixed;
+  left: 560px; 
+  top: 30px;  
+  width: 15px; height: 15px;
+  border-radius: 50%;
+  background-color: rgb(255, 136, 115);
+  box-shadow: inset 0px 1px 0px rgba(0,0,0,.1);
+  
+}
+			
